@@ -61,18 +61,18 @@ const CelebrationPage = () => {
         </h1>
 
         <h2 className="font-display text-3xl sm:text-5xl font-semibold text-foreground">
-          I knew you'd say yes! 🥰
+          I knew you'd say yes pigg 😽
         </h2>
 
         <p className="font-body text-lg sm:text-xl text-muted-foreground max-w-lg mt-2">
-          You just made me the happiest person in the world!
-          Can't wait to spend Valentine's Day with you 💕
+          I am now the happiest person in the world HEHEHE <br></br>
+          See you on Valentine's Day+1 💕
         </p>
 
         <div className="mt-6 flex gap-4 text-4xl animate-bounce-soft">
-          <span>🌹</span>
           <span>💕</span>
-          <span>🌹</span>
+          <span>💍</span>
+          <span>💕</span>
         </div>
       </div>
     </div>

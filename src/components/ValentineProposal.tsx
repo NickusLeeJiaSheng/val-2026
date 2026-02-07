@@ -2,7 +2,7 @@ import { useState } from "react";
 import FloatingHearts from "./FloatingHearts";
 import AreYouSurePage from "./AreYouSurePage";
 import CelebrationPage from "./CelebrationPage";
-import valentineBg from "@/assets/valentine-bg.jpg";
+import valentineBg from "@/assets/val.jpg";
 
 type Page = "proposal" | "are-you-sure" | "celebration";
 
@@ -29,10 +29,12 @@ const ValentineProposal = () => {
       <FloatingHearts />
 
       <div className="relative z-10 flex flex-col items-center gap-8 px-6 text-center">
-        {/* Heart emoji */}
-        <div className="text-7xl animate-bounce-soft">💝</div>
+
 
         {/* Main question */}
+        <h1 className="font-display text-5xl sm:text-7xl md:text-8xl font-bold text-foreground drop-shadow-sm">
+          Miss Clara
+        </h1>
         <h1 className="font-display text-5xl sm:text-7xl md:text-8xl font-bold text-foreground drop-shadow-sm">
           Will you be my
         </h1>
@@ -41,8 +43,8 @@ const ValentineProposal = () => {
         </h1>
 
         {/* Subtitle */}
-        <p className="font-body text-lg sm:text-xl text-muted-foreground max-w-md">
-          Every moment with you is a gift 💕
+        <p className="font-body text-lg sm:text-xl text-foreground max-w-md">
+          Pls say yes 🥺
         </p>
 
         {/* Buttons */}

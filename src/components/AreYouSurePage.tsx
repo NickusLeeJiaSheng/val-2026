@@ -1,6 +1,6 @@
 import { useState, useRef, useCallback, useEffect } from "react";
 import FloatingHearts from "./FloatingHearts";
-import valentineBg from "@/assets/valentine-bg.jpg";
+import valentineBg from "@/assets/val.jpg";
 
 interface AreYouSurePageProps {
   onAccept: () => void;
@@ -101,7 +101,7 @@ const AreYouSurePage = ({ onAccept }: AreYouSurePageProps) => {
               transition: "transform 0.3s ease-out",
             }}
           >
-            Yes, I reject 💔
+            Yes I reject 💔
           </button>
 
           {/* Accept button - moves to cursor on reject click */}
@@ -116,13 +116,13 @@ const AreYouSurePage = ({ onAccept }: AreYouSurePageProps) => {
               transition: "transform 0.3s ease-out",
             }}
           >
-            No, I want to be your Valentine! 💕
+            No I want to be your Valentine! 💕
           </button>
         </div>
 
         {hasMoved && (
           <p className="font-body text-sm text-muted-foreground mt-8 animate-bounce-soft">
-            Hmm... that button seems to have a mind of its own! 😏
+            
           </p>
         )}
       </div>
