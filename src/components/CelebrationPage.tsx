@@ -61,7 +61,7 @@ const CelebrationPage = () => {
         </h1>
 
         <h2 className="font-display text-3xl sm:text-5xl font-semibold text-foreground">
-          I knew you'd say yes pigg 😽
+          Your officially Nickus' Valentine 2026 😼😽
         </h2>
 
         <p className="font-body text-lg sm:text-xl text-muted-foreground max-w-lg mt-2">
